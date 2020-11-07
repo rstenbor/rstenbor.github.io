@@ -119,7 +119,7 @@ footer{
 footer span {
     text-align: right;
     margin-top: 1.25em;
-    font-size: 1em;
+    font-size: 1.25em;
 }
 
 footer ul {
@@ -127,9 +127,6 @@ footer ul {
     display: block;
 }
 
-#smedia li {
-    width: 3em;
-}
 
 
 form{
@@ -180,18 +177,28 @@ textarea{
 /* --------------------------- */
 
 header {
-    display: grid;
-    grid-template-columns: 5em auto auto;
+    display: block;
+    width: 100%;
 }
 
 header img{
-    width: 3em;
-    margin: 1em;
+    width: 4em;
+    margin: 1em auto;
+    display: block;
 }
 
-nav li {
-    font-size: 1em;
-    padding-top .5em;
+nav ul{
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    margin: 1em auto;
+    width: 80%;
+}
+
+nav li a {
+    font-size: 1.25em;
+    padding: 1em;
+    display: block;
+    text-align: center;
 }
 
 #mainLogo {
@@ -235,6 +242,11 @@ nav li {
 .projects {
     margin: 3em 0;
 }
+
+#smedia li {
+    width: 2em;
+}
+
 
 #about {
     display: block;
@@ -346,6 +358,10 @@ h2 {
     font-size: 1.25em;
 }
 
+#smedia li {
+    width: 2em;
+}
+
 
 @media only screen and (min-width: 860px) {
 
@@ -359,9 +375,17 @@ h2 {
         margin: 1em;
     }
 
-    nav li {
+    nav ul{
+        display: inline-block;
+        margin: 1em auto;
+        width: 100%;
+    }
+    nav li a{
         font-size: 2em;
         padding: 1.5em 0 0 0;
+        margin: 0.5rem;
+        display: block;
+        text-align: center;
     }
     
     #mainLogo {
@@ -536,4 +560,8 @@ h2 {
         font-size: 1.75em;
     }
 
+    #smedia li {
+        width: 3em;
+    }
+    
 }
