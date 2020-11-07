@@ -288,6 +288,65 @@ nav li {
     text-align: center;
 }
 
+#fold img {
+    display: block;
+    margin: 1em auto;
+    width: 90%;
+}
+
+#fold p {
+    font-size: 1.25em;
+    width: 80%;
+    display: block;
+    margin: 1em auto;
+}
+
+#outline {
+    display: block;
+    width: 80%;
+    margin: 2em auto 7em auto;
+}
+
+#outline p {
+    font-size: 1.25em;
+    margin: 2em auto;
+}
+
+#outline img {
+    width: 90%;
+    display: block;
+    margin: 0 auto;
+}
+
+h2 {
+    grid-column: 1 / 3;
+    font-size: 2em;
+    margin: 1em auto;
+    text-align: center;
+}
+
+#finalResult {
+    width: 80%;
+    margin: 1em auto 7em auto;
+}
+
+#finalResult h2{
+    text-align: center;
+}
+
+#finalResult img {
+    display: block;
+    width: 100%;
+    margin: 1em auto;
+}
+
+#finalResult p{
+    width: 100%;
+    margin: 1em auto 7em auto;
+    font-size: 1.25em;
+}
+
+
 @media only screen and (min-width: 860px) {
 
     header {
