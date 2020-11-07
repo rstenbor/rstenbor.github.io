@@ -117,9 +117,10 @@ footer{
 }
 
 footer span {
-    text-align: right;
+    text-align: left;
     margin-top: 1.25em;
     font-size: 1.25em;
+    padding: 0 .5em;
 }
 
 footer ul {
@@ -191,12 +192,12 @@ nav ul{
     display: grid;
     grid-template-columns: 33% 33% 33%;
     margin: 1em auto;
-    width: 100%;
+    width: 90%;
 }
 
-nav li a {
-    font-size: 1.25em;
-    padding: 1em;
+nav  a {
+    font-size: 1.1em;
+    padding: .5em;
     display: block;
     text-align: center;
 }
@@ -567,8 +568,6 @@ h2 {
         font-size: 1.75em;
     }
 
-    #smedia li {
-        width: 3em;
-    }
+
     
 }
