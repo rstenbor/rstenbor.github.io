@@ -181,7 +181,7 @@ textarea{
 
 header {
     display: grid;
-    grid-template-columns: 5em auto 25em;
+    grid-template-columns: 5em auto auto;
 }
 
 header img{
@@ -191,7 +191,7 @@ header img{
 
 nav li {
     font-size: 1.25em;
-    padding: .5em;
+    padding: .25em;
 }
 
 #mainLogo {
