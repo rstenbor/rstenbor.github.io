@@ -5,6 +5,9 @@
    License: none (public domain)
 */
 
+
+
+
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -244,6 +247,10 @@ nav  a {
     margin: 3em 0;
 }
 
+.centered {
+    text-align: center;
+}
+
 #smedia li {
     width: 2em;
 }
@@ -457,13 +464,6 @@ h2 {
         font-size: 1.75em;
     }
 
-    #container {
-        display: grid;
-        grid-template-columns: 50% 50%;
-        justify-items: center;
-        width: 80%;
-        margin: 15em auto 0em auto;
-    }
 
     #contact {
         display: grid;

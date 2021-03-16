@@ -1,0 +1,76 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Stenborg Designs - Bergen Piano Studio</title>
+    <meta charset="UTF-8">
+    <meta name="author" content="Ryan Stenborg">
+    <meta name="description" content="Bergen Piano Studio project page">
+    <meta name="keywords" content="Web design, Web developement, Front-end Web">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://use.typekit.net/ith8skc.css">
+</head>
+<body>
+    <header>      
+        <a href="index.html"><img src="./SVGs/minilogo.svg" alt="RS Designs Small logo"></a>
+        <div id="spacer"></div>
+        <nav>
+            <ul>
+                <li><a href="index.html">Portfolio</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Get in Touch</a></li>
+            </ul>
+        </nav>
+    </header> 
+    <main>
+        <section id="fold">
+            <h1>Bergen Piano Studio</h1>
+            <img src="./Images/corsair2.png" alt="My CORSAIR variant with both light and dark modes on display">
+            <p>
+                The goal of this project was to display an understanding of JavaScript. I had to present two of three different modules. For the modules, I chose a "product" section, which displays a product than can be switched out for another, and a "shop" section, which allows users to add items to a shopping cart. I also had to have a validated form with built-in error messages, and a dark mode switch to change the theme of the website.
+            </p>
+        </section>
+        <section id="outline">
+            <h2>Outline & Process</h2>
+            <img src="./Images/corsairOrig.png" alt="Screenshot of CORSAIR site">
+            <p>
+                I used CORSAIR as heavy inspiration for style and structure of this site, and all the product images were taken directly from CORSAIR.
+            </p>
+            <img src="./Images/corsairwf.png" alt="Wireframes of my CORSAIR site">
+            <p>
+                Since I had my inspiration chosen, I drew up some wireframes in Adobe XD to get my structure well defined. I didn't end up doing a full mockup after wireframing, because I was just applying the visual style of CORSAIR to a slightly different structure. 
+            </p>
+            <img src="./Images/selector.png" alt="Product Section">
+            <p>
+              The product section displays the first of three products, and a user can switch between all three. I used JavaScript to set the display of each content block to either "block" or "hidden" depending on whether or not it should be visible.
+            </p>
+            <img src="./Images/shop.png" alt="Shop section">
+            <p>
+              The shop section displays a bunch of different CORSAIR products, along with price information and a button to "Add to Order". At the bottom, the products added are displayed in a list, and the total cost, and cost after taxes, is displayed. Clicking "ORDER" clears the list and price values and alerts the client of the total.
+            </p>
+            <img src="./Images/form.png" alt="Form section">
+            <p>
+              The form section is rather simple in concept but required knowledge of REGEX expressions and other validation tactics. The user can choose between inputting a phone or email address. When "Submit" is clicked, the form checks that a name, a valid phone number or email address, and comments have been filled in. If all the conditions pass, the form alerts the user letting them know their info went through.
+            </p>
+        </section>
+        <section id="finalResult">
+            <h2>Final Result</h2>
+            <a href="https://www.public.asu.edu/~rstenbor/GIT417/index.html" target="_blank"><img src="./Images/corsair.png" alt="Final Result of the CORSAIR project"></a>
+            <p class="centered">
+                Here's the finalized website. Click on the image to visit! Play around in the shop and test out the form!
+            </p>
+        </section>
+        
+    </main>
+    <footer>
+        <span>&copy; Ryan Stenborg 2020</span>
+        <ul id="smedia">
+            <li><a href="https://www.behance.net/rstenborg"><img src="./SVGs/behance.svg" alt="Behance"></a></li>
+            <li><a href="https://github.com/rstenbor"><img src="./SVGs/github.svg" alt="GitHub"></a></li>
+            <li><a href="https://www.linkedin.com/in/ryan-stenborg-65a4711b8/"><img src="./SVGs/linkedin.svg" alt="LinkedIn"></a></li>
+        </ul>
+      
+    </footer>
+</body>
+</html>
